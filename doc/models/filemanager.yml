@@ -1,0 +1,17 @@
+A class that represents a file manager.
+
+Attributes:
+    file (str): The path to the file that contains the questions.
+
+Methods:
+    read_file_to_string(file): Reads the contents of a file and returns it as a string.
+
+        Args:
+            file (str): The path to the file.
+
+        Returns:
+            str: The contents of the file as a string.
+
+        Raises:
+            FileNotFoundError: If the file is not found.
+            Exception: If an error occurs while reading the file.                               

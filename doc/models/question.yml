@@ -1,0 +1,49 @@
+Represents a question with an ID, statement, and options.
+
+Args:
+    id (int): The ID of the question.
+    statement (str): The statement of the question.
+    options (list): The list of options for the question.
+
+Methods:
+
+    def set_question(self, id, statement, options):
+        Sets the attributes of the question.
+
+        Args:
+            id (int): The unique identifier of the question.
+            statement (str): The statement of the question.
+            options (list): The list of options for the question.
+
+        Returns:
+            Question: The updated question object
+
+    get_question(self):
+        Returns the ID, statement, and options of the question.
+
+        Returns:
+            tuple: A tuple containing the ID, statement, and options of the question.
+    
+    def get_statement(self):
+        Returns the statement of the question.
+
+        Returns:
+            str: The statement of the question.
+    
+    def get_options(self):
+        Returns the options of the question.
+
+        Returns:
+            list: The list of options for the question.
+    
+    def get_id(self):
+        Returns the ID of the question.
+
+        Returns:
+            int: The ID of the question.
+    
+    def to_string(self):
+        Returns a string representation of the question.
+
+        Returns:
+            str: A string representation of the question.

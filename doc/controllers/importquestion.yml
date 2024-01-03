@@ -1,0 +1,15 @@
+A class that represents the import of questions from a file.
+
+  Attributes:
+    file_name (str): The name of the file to import questions from.
+    file_manager (FileManager): An instance of the FileManager class to handle file operations.
+    question (Question): The current question being imported.
+    statement (Statement): The statement of the current question.
+    options (list): The list of options for the current question.
+    questions (str): The string representation of all the questions in the file.
+    questionList (list): The list of imported Question objects.
+
+  Methods:
+      import_question: Imports the questions from the file and returns a list of Question objects.
+        Returns:
+          list: A list of Question objects representing the imported questions.

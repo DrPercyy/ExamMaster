@@ -1,0 +1,60 @@
+A class that represents an option object.
+
+Attributes:
+    id (int): The ID of the option.
+    option_text (str): The text of the option.
+    correct_answer (bool): Indicates whether the option is the correct answer.
+    question_id (int): The ID of the question that the option belongs to.
+
+Methods:
+    def set_option(self, id, option_text, correct_answer, question_id): Sets the attributes of the Option object to the given values.
+            
+        Args:
+            id (int): The ID of the option.
+            option_text (str): The text of the option.
+            correct_answer (bool): Indicates whether the option is the correct answer.
+            question_id (int): The ID of the question that the option belongs to.
+
+        Returns:
+            Option: A new Option object with the updated attributes.
+
+    def get_option(self):
+        Returns the attributes of the Option object.
+
+        Returns:
+            tuple: A tuple containing the ID, option text, correct answer, and question ID.
+
+    def get_option_text(self):
+        Returns the text of the option.
+
+        Returns:
+            str: text of the option.
+
+    def get_correct_answer(self):
+        Returns whether the option is the correct answer.
+
+        Returns:
+            bool: True if the option is the correct answer, False otherwise.
+
+    def get_id(self):
+        Returns the ID of the option.
+        Returns:
+            int: The ID of the option.
+
+    def get_question_id(self):
+        Returns the ID of the question that the option belongs to.
+
+        Returns:
+            int: The ID of the question.
+
+    def to_string(self):
+        Returns a string representation of the Option object.
+
+        Returns:
+            str: A string representation of the Option object.
+
+    def text_to_string(self):
+                Returns a string representation of the option text.
+
+                Returns:
+                    str: A string representation of the option text.

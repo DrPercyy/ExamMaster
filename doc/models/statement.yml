@@ -1,0 +1,34 @@
+Initializes a new instance of the Statement class.
+
+  Args:
+    question_id (int): The ID of the question associated with the statement.
+    text (str): The text of the statement.
+  
+  Meyhods:
+    def set_statement(self, question_id, text):
+        Sets the question ID and text of the statement.
+
+        Args:
+            question_id (int): The ID of the question associated with the statement.
+            text (str): The text of the statement.
+
+        Returns:
+            Statement: A new instance of the Statement class with the updated question ID and text.
+
+    def get_statement(self):
+      Gets the question ID and text of the statement.
+
+      Returns:
+          tuple: A tuple containing the question ID and text of the statement.
+
+    def to_string(self):
+      Converts the statement to a string representation.
+
+      Returns:
+          str: The string representation of the statement.
+
+    def to_string2(self):
+      Converts the statement to a formatted string representation.
+
+      Returns:
+          str: The formatted string representation of the statement.
